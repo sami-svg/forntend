@@ -89,7 +89,7 @@ onInputChange=(event)=>{
 onButtonChange=()=>{
   this.setState({imgUrl:this.state.input});
 
-        fetch("http://localhost:3000/imageurl",{
+        fetch("https://floating-stream-26735.herokuapp.com/imageurl",{
           method:'post',
           headers:{'Content-Type':'application/json'},
           body:JSON.stringify({
@@ -99,7 +99,7 @@ onButtonChange=()=>{
       .then(response=>response.json())
   //app.models.predict(Clarifai.FACE_DETECT_MODEL,this.state.input)
     .then(response=>{
-       fetch("http://localhost:3000/images",{
+       fetch("https://floating-stream-26735.herokuapp.com/images",{
           method:'put',
           headers:{'Content-Type':'application/json'},
           body:JSON.stringify({
