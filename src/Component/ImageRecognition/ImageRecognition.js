@@ -3,7 +3,7 @@ import './ImageRecognition.css';
 function ImageRecognition({onButtonChange,input}) {
   return (
 
-  		 <div className="">
+  		 <div className="tc">
 		 		<p className="f4 white">{`This Magic Brain will detect Faces.Give it try... `}
 				</p>
 				<div className="center">
