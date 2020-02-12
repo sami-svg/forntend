@@ -7,9 +7,9 @@ function ImageRecognition({onButtonChange,input}) {
 		 		<p className="f4 white">{`This Magic Brain will detect Faces.Give it try... `}
 				</p>
 				<div className="center">
-			    <div className="ImageRecognition br3 pa4 center shadow-5">
-			      <input onChange={input} className="center f4 pa2 w-70" type="text"/>
-			      <button onClick={onButtonChange} className="w-30 pointer link black dib hover-white bg-gray">Detect</button>
+			    <div className="ImageRecognition f2 br3 pa4 center shadow-5">
+			      <input onChange={input} className="w-70" type="text"/>
+			      <button onClick={onButtonChange} className="w-30 pointer black dib hover-white bg-gray">Detect</button>
 			    </div>
    		 	</div>
    		 </div>
