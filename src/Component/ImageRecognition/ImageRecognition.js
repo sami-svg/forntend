@@ -7,7 +7,7 @@ function ImageRecognition({onButtonChange,input}) {
 			</p>
 	    <div className="ImageRecognition f2 pa4 center">
 	      <input onChange={input} className=" w-70" type="text"/>
-	      <button onClick={onButtonChange} className="w-30 pointer black hover-white bg-gray">Detect</button>
+	      <button onClick={onButtonChange} className="w-30 pointer black dib hover-white bg-gray">Detect</button>
 	    </div>
     </div>  
   );
